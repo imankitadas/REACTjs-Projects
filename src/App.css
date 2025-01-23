@@ -1,0 +1,57 @@
+body{ 
+  background-color:papayawhip;
+}
+
+#root {
+  margin: 0 auto;
+}
+
+h1{ 
+   font-size: 4rem;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color:olivedrab;
+}
+
+.container{ 
+  padding:1rem;
+  max-width: 1200px;
+  text-align: center;
+  background-color:white;
+  border-radius: 20px;
+}
+
+.box{ 
+    background-color:orange;
+    height:12rem;
+    border-radius:20px;
+    padding-top:3rem;
+    /* margin-bottom: 4rem; */
+}
+
+p{ 
+   font-size:2.8rem;
+}
+
+.counterbtns{ 
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  margin-top:30px;
+}
+
+.counterbtns button{ 
+  padding:10px 20px;
+  border-radius:8px;
+  background-color: rgb(153, 245, 15);
+  font-size:1.2rem;
+}
+
+.addBtn:hover{ 
+   background-color: green;
+   border-color:#000;
+}
+
+.subBtn:hover{ 
+  background-color: crimson;
+  border-color:#000;
+} 
